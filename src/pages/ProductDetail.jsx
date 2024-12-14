@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { getProductDetailsByBarcode } from '../services/api';
 
 const ProductDetail = () => {
-  const { id } = useParams(); // Get the product ID from the URL
+  const { id } = useParams(); 
   const [product, setProduct] = useState(null);
 
   useEffect(() => {

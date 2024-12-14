@@ -16,7 +16,8 @@ const ProductCard = ({ product }) => (
       <p className="card-text">
         <strong>Nutrition Grade:</strong> {product.nutrition_grades || 'N/A'}
       </p>
-      {/* View Details Button */}
+     
+     
       <Link to={`/product/${product.id}`} className="btn btn-primary">
         View Details
       </Link>
